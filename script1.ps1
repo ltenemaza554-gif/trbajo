@@ -1,3 +1,5 @@
+# En la clases pusimos este codigo y sirve para ver una barra  progreso en PowerShell según el tiempo indicado que son 30 segundos.
+#Y suele mustra  para ver cuánto falta mientras se ejecuta una tarea o espera.
 function Start-ProgressBar {
     [CmdletBinding()]
     param (

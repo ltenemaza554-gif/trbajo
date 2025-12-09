@@ -1,3 +1,6 @@
+# En clase trabajamos con este código. Lo que hace es crear carpetas y archivos de log automáticamente.
+# También permite escribir mensajes dentro de esos archivos, clasificándolos como Información, Advertencia o Error.
+# En resumen, sirve para organizar registros y llevar un control de lo que pasa durante la ejecución de un script.
 # script3.ps1
 function New-FolderCreation {
     [CmdletBinding()]
@@ -125,5 +128,4 @@ function Write-Log {
 # This will create the folder "logs" (if missing) and create a file Name-Log_YYYY-MM-DD_HH-mm-ss.log
 $logPaths = Write-Log -Name "Name-Log" -folder "logs" -Ext "log" -Create
 $logPaths
-
 
